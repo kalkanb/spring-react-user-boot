@@ -26,15 +26,22 @@ Frontend:
 2. npm start
 
 Backend: 
-1. maven clean install
-2. run/debug SpringBootRestApiApplication class
+1. (Optional step: Run only if database is needed to be reset) liquibase:dropAll
+2. maven clean install
+3. run/debug SpringbootrestapiApplication class
 
 **Notes**
 
-Project requires a database. The current version is set to default of pgAdmin's PostgreSQL server with a username(root)-password(root) change.
-Database name is testdb. 
+Project requires a database. The current version is set to default of pgAdmin's PostgreSQL server 
+with a username(root)-password(root) change. Database name is testdb. 
 
-If desired, a different PostgreSQL database server can be used, but application.properties file in backend -> src/main/resources could be modified.
+Database table creation and data queries are in the Liquibase xml files in the backend part of the project. 
+Thus, an empty database suffice and after running the project it will be automatically filled by Liquibase. 
+If database is needed to be reset at some point, by IntelliJ IDEA, or with other IDEs with Maven support, 
+run the _dropAll_ command under the Maven's plugin _liquibase_ (liquibase:dropAll)
+
+If desired, a different PostgreSQL database server can be used, but application.properties and liquibase.properties 
+files in backend -> src/main/resources could be modified.
 
 Frontend app runs on latest versions of Google Chrome, Mozilla Firefox and Opera without problems, 
 other browsers are not tested but it is predicted to run on every browser with HTML 5 features.
