@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.106014ec.chunk.css",
+    "main.js": "/static/js/main.5470f3a1.chunk.js",
+    "main.js.map": "/static/js/main.5470f3a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9040f5fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9040f5fb.js.map",
+    "static/css/2.fe17046e.chunk.css": "/static/css/2.fe17046e.chunk.css",
+    "static/js/2.1bdf307c.chunk.js": "/static/js/2.1bdf307c.chunk.js",
+    "static/js/2.1bdf307c.chunk.js.map": "/static/js/2.1bdf307c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fe17046e.chunk.css.map": "/static/css/2.fe17046e.chunk.css.map",
+    "static/css/main.106014ec.chunk.css.map": "/static/css/main.106014ec.chunk.css.map",
+    "static/js/2.1bdf307c.chunk.js.LICENSE.txt": "/static/js/2.1bdf307c.chunk.js.LICENSE.txt",
+    "static/media/error.c48293cd.svg": "/static/media/error.c48293cd.svg",
+    "static/media/layout.css": "/static/media/pencils.d10b8579.jpg",
+    "static/media/primeicons.css": "/static/media/primeicons.c6e20533.svg",
+    "static/media/theme.css": "/static/media/roboto-v20-latin-ext_latin-regular.ae804dc0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9040f5fb.js",
+    "static/css/2.fe17046e.chunk.css",
+    "static/js/2.1bdf307c.chunk.js",
+    "static/css/main.106014ec.chunk.css",
+    "static/js/main.5470f3a1.chunk.js"
+  ]
+}
